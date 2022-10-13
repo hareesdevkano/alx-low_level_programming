@@ -3,13 +3,14 @@
 /**
  * main - Print the sizeof many var types
  *
- *Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	char a;
 	int b;
-	long int d;
+	long int c;
+	long long int d;
 	float e;
 
 	printf("Size of a char: %d byte(s)\n" ,sizeof(a));
