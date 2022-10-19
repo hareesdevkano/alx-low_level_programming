@@ -1,22 +1,19 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/**
-* main - Entry point
-*
-* Return: Always 0 (Success)
-*/
+#include "main.h"
+
+**/
+*main - printer putchar
+*return 0 always 
+*/ 
 int main(void)
 {
-int n;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n > 0)
-printf("%i is positive\n", n);
-else if (n == 0)
-printf("%i is zero\n", n);
-else
-printf("%i is negative\n", n);
-return (0);
-}
+  _puctcar('-');
+  _puctcar('p');
+  _puctcar('u');
+_puctcar('t');
+_puctcar('c');
+_puctcar('h');
+_puctcar('a');
+_puctcar('i');
+_puctcar('\n');
+  return(0);
+  }
