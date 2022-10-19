@@ -1,6 +1,6 @@
 #include "main.h"
 
-**/
+/**
 *main - printer putchar
 *return 0 always 
 */ 
