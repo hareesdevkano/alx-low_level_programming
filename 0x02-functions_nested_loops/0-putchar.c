@@ -1,24 +1,19 @@
-#include "_putchar"
+#include "main.h"
 
-/**
- *
- * main - Entry point
- *
- * Return: Always 0 (Success)
- *
- */
+**/
+*main - printer putchar
+*return 0 always 
+*/ 
 int main(void)
 {
-	char *sh = "_putchar";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	
-		_putchar('\n');
-		
-		return (0);
-
-	}
+  _puctcar('-');
+  _puctcar('p');
+  _puctcar('u');
+_puctcar('t');
+_puctcar('c');
+_puctcar('h');
+_puctcar('a');
+_puctcar('i');
+_puctcar('\n');
+  return(0);
+  }
