@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_rev - this characters in reverse.
  * @s: this is a parameter to change.
